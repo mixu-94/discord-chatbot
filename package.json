@@ -1,0 +1,30 @@
+{
+  "name": "chatgpt-discord-bot",
+  "version": "3.2.1",
+  "description": "A Chat Synced Discord Bot using OpenAI ChatGPT API & Firestore Database 🚀",
+  "author": "itskdhere",
+  "license": "MIT",
+  "private": "true",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "prod": "pm2 start index.js -n chatgpt-bot"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.1",
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0",
+    "chatgpt": "^5.2.5",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "figlet": "^1.6.0",
+    "firebase-admin": "^11.9.0",
+    "gradient-string": "^2.0.2",
+    "keyv": "^4.5.2",
+    "keyv-firestore": "^2.0.0",
+    "node-fetch": "^3.3.1"
+  }
+}
